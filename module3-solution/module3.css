@@ -1,0 +1,107 @@
+/* Yellow -#FBCE3A, Red #C9595F */
+
+
+.navbar{
+	background-color: #e2d3bc; /*beige*/
+	border-bottom: 2px solid #372F2F;
+	border-radius: 0;
+	padding: 10px 0 0 0;
+
+}
+
+.container{
+	
+}
+
+.navbar-brand, .navbar-brand a:hover{
+	text-decoration: none;
+
+}
+.navbar-brand h1{ /*FOOD LLC*/
+	color: #372F2F; /*black*/
+	margin:0;
+	line-height: .75;
+	}
+
+.navbar-brand h1:hover{
+	color: #C9595F; /*Red*/
+}
+
+.navbar-header button.navbar-toggle{ /* Collapsible Button*/
+border: 2px solid #372F2F;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+	background-color: #dedada;
+}
+
+.navbar-header .navbar-toggle .icon-bar{ /*Lines on button*/
+	background-color:#372F2F;
+}
+
+h2{
+	margin-bottom: 20px;
+}
+h3{ 
+	font-weight: bold;
+}
+
+.content-column{ /*Header and Paragraph columns */
+		background-color: pink;
+		padding: 15px;
+		margin: 10px 0 10px 0;
+}
+
+
+
+
+/**RESPONSIVE DESIGN**/
+
+/**Medium Devices Only (Desktop)**/
+@media(min-width:992px){
+ 
+}
+
+
+
+/** Small Devices Only (Tablet)**/
+
+@media(min-width:768px) and (max-width:991px){
+	
+}
+
+
+/**Extra Small Devices Only (Mobile)**/
+
+@media(max-width:767px){
+	
+
+	#collapsible-nav{
+		border-top: 2px solid black;
+		background-color:#dedada ;
+	}
+
+	#collapsible-nav li{ /*list of beef, chicken, sushi */
+			font-size: 1.5em;
+			margin: 10px 0 10px 0;
+			padding:10px;
+			text-align: center;
+			border-top:2px solid black;
+		}
+
+	#collapsible-nav li:first-of-type{
+		border:none;
+		padding:0px;
+	}
+
+	#collapsible-nav li:hover{
+		background-color:#fafafa;
+	}
+
+#collapsible-nav li a{
+	color:black;
+}
+
+
+}
+
